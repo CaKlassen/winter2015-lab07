@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- An order for Chris -->
+<!DOCTYPE order SYSTEM 'bonanza.dtd'>
+
+<order type="eatin">
+    <customer>Chris</customer>
+    <burger>
+        <patty type="turkey" />
+        <cheeses top="gouda" />
+        <topping type="dill" />
+        <topping type="salsa" />
+        <topping type="tomato" />
+        <sauce type="mustard" />
+        <instructions>Please slather peanut butter all over the underside of the burger.</instructions>
+    </burger>
+    <burger>
+        <patty type="beef" />
+        <cheeses top="american" bottom="american" />
+        <topping type="lettuce" />
+    </burger>
+</order>
